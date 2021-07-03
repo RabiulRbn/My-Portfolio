@@ -1,0 +1,126 @@
+ body{
+        margin: 0px;
+    }
+        .header{
+            color: rgb(19, 24, 29);
+            background-color: aliceblue;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            padding-left: 80px;
+            padding-right: 90px;
+            border-bottom: 1px solid rgb(202, 240, 234)
+          
+
+        }
+        
+
+         .nav_logo{
+             color:rgb(31, 24, 24); ;
+
+         }
+
+        .nav_list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav_list a{
+        display: flex;
+        justify-content: space-around;
+        color: rgb(31, 24, 24);
+        text-decoration: none;
+        padding-left:50px ;
+    }
+    .nav_list a:hover{
+        color: rgb(12, 122, 224);
+    }
+    .Home{
+       
+       
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(238, 254, 255);
+        padding: 100px;
+        padding-right: 200px;
+        padding-left: 150px;
+        border-bottom: 1px solid rgb(202, 240, 234);
+    }
+
+    .Home_title{
+        font-size: 35px;
+    }
+
+    .home__title_color{
+        color: rgb(12, 122, 224);
+    }
+
+    .button{
+        color: whitesmoke;
+        background-color: rgb(12, 122, 224);
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 10px;
+        font-size:20px;
+        text-decoration: none;
+
+    }
+    .button:hover{
+        color: rgb(19, 34, 7);
+    }
+    
+
+
+
+
+    .Home_links{
+        font-size: 30px;
+        display: flex;
+      justify-content: space-between;
+      padding-right: 160px;
+      padding-left: 4px;
+        
+
+    }
+
+    .pic_1{
+        border-radius:30%;
+        opacity: 0.8;
+    }
+
+    .about_title{
+        background-color: rgb(238, 254, 255);
+        text-align: center;
+        font-size: 50px;
+        color: rgb(12, 122, 224);
+    }
+    .about{
+        color: blue;
+        font-size: 50px;
+        margin-top: 0px;
+        background-color: rgb(238, 254, 255);
+        text-align: center;
+        padding-top: 0px;
+       
+    }
+
+    .pic_2{
+       border-radius: 30%;
+       height="400px" 
+       width="300px"
+
+    }
+    .about_section{
+        display: flex;
+        justify-content: space-between;
+        padding:  80px;
+
+    }
+
+    .about_right .h5 .p{
+        font-size: 50px;
+    }
+
+    
+
